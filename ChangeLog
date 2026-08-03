@@ -1,3 +1,11 @@
+Mon Aug  3 10:23:20 2026  Rob Lauer  <rclauer@gmail.com>
+
+	[1.0.3]:
+	* VERSION: modified
+	* cpanfile: remove Amazon::Signature4::Lite
+	* test-requires: likewise
+	* t/01-signature4-lite.t: use_ok to prevent including Amazon::Signature4::Lite in test-requires
+
 Mon Aug  3 09:18:24 2026  Rob Lauer  <rclauer@gmail.com>
 
 	[1.0.2]:
