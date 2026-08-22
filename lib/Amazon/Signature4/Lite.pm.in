@@ -9,7 +9,9 @@ use POSIX qw(strftime);
 use URI::Escape qw(uri_escape_utf8 uri_unescape);
 use Data::Dumper;
 
-our $VERSION = '@PACKAGE_VERSION@';
+our $VERSION   = '@PACKAGE_VERSION@';
+our $GIT_SHA   = '@GIT_SHA@';
+our $GIT_DIRTY = '@GIT_DIRTY@';
 
 my @SERVICE_URL_PATTERNS = (
   qr/(s3)[.]amazonaws[.]com\z/xsm,
